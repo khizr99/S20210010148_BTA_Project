@@ -1,0 +1,39 @@
+/* Purchase.css */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#qr-code {
+  max-width: 100%;
+  margin-bottom: 1rem;
+}
+
+input {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  width: 33%;
+  box-sizing: border-box;
+  background: linear-gradient(to right, #ffd941c2, #ff832b);
+}
+
+button {
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  background-color: #61dafb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #4fa3d1;
+}
+
+p {
+  margin-top: 1rem;
+  color: red;
+}

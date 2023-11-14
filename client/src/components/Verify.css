@@ -1,0 +1,75 @@
+/* Verify.css */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  width: 33%;
+  box-sizing: border-box;
+  background: linear-gradient(to right, #ffd941c2, #ff832b);
+}
+
+button {
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  background-color: #61dafb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #4fa3d1;
+}
+
+p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+  font-size: x-large;
+  color: red;
+}
+
+
+/* 
+.falling-flowers-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none; 
+  z-index: 1000; 
+}
+
+.falling-flower {
+  display: inline-block;
+  font-size: 24px;
+  animation: fallingFlower 3s linear infinite;
+  position: absolute;
+  left: calc(50% - 12px); 
+  opacity: 0; 
+}
+
+@keyframes fallingFlower {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(50vh) rotate(180deg);
+  }
+  100% {
+    transform: translateY(100vh) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+  */
